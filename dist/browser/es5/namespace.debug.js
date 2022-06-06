@@ -15,4 +15,4 @@ var Namespace = function () {
     foo: foo
   };
 }();
-/* exported HtmlFactory */
+/* exported Namespace */

@@ -27,5 +27,5 @@ return {
 };
 })();
 
-/* exported HtmlFactory */
+/* exported Namespace */
 /* @endif */
