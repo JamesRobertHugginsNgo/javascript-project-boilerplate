@@ -5,7 +5,7 @@
 ### Step 1: Clone Boilerplate and Open Folder
 
 ``` console
-git clone https://github.com/JamesRobertHugginsNgo/javascript-project-boilerplate.git NEW-PROJECT-NAME
+git clone https://github.com/JamesRobertHugginsNgo/javascript-project-boilerplate.git#1.0.1 NEW-PROJECT-NAME
 cd NEW-PROJECT-NAME
 ```
 
