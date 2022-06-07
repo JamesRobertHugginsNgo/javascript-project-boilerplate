@@ -49,4 +49,5 @@ npm install
 ``` console
 git add .
 git commit -m "Update files"
+git push
 ```
