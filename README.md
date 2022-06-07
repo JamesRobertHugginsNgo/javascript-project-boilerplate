@@ -2,81 +2,51 @@
 
 ## Usage
 
-### Step 1: Clone Boilerplate
+### Step 1: Clone Boilerplate and Open Folder
 
 ``` console
 git clone https://github.com/JamesRobertHugginsNgo/javascript-project-boilerplate.git NEW-PROJECT-NAME
-```
-
-### Step 2: Open New Folder
-
-``` console
 cd NEW-PROJECT-NAME
 ```
 
-### Step 3: Remove Git Folder
+### Step 2: Replace Git Repository
 
 ``` console
 rm -rf .git
-```
-
-### Step 4: Initialize a New Git Repository
-
-``` console
 git init
-```
-
-### Step 5: Update Main Branch
-
-``` console
-git branch -m main
-```
-
-### Step 6: Add Files to the New Git Repository
-
-``` console
+git branch -M main
 git add .
-```
-
-### Step 7: Commit Added Files to the New Git Repository
-
-``` console
 git commit -m "Make initial commit"
+git remote add origin https://github.com/JamesRobertHugginsNgo/NEW-PROJECT-NAME.git
+git push -u origin main
 ```
 
-### Step 8: Remove Readme File
+### Step 3: Replace Readme File
 
 ``` console
 rm README.md
-```
-
-### Step 9: Create a New Readme File
-
-``` console
 echo -e '# NEW-PROJECT-NAME' >> README.MD
 ```
 
-### Step 10: Rename Package.json
+### Step 4: Replace Package.json
 
 ``` console
 mv package.json package.old.json
-```
-
-### Step 11: Initialize NPM Creating a new Package.json
-
-``` console
 npm init -y
 ```
 
-### Step 12: Update New Package.json
-
 Find and copy over the following fields/properties:
-
 - scripts
 - devDependencies
 
-### Step 13: Remove Old Package.json
-
 ``` console
 rm package.old.json
+npm install
+```
+
+### Step 5: Commit Changes to the Git Repository
+
+``` console
+git add .
+git commit -m "Update files"
 ```
